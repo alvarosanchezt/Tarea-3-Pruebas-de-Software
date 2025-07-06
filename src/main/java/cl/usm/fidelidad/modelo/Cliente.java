@@ -6,7 +6,7 @@ public class Cliente {
     private String correo;
     private int puntos;
     private Nivel nivel;
-    private int streakDias; // Este atributo se reinicia diariamente en la lógica de servicio
+    private int streakDias;
 
     public Cliente(String id, String nombre, String correo) {
         this.id = id;

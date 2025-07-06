@@ -23,7 +23,6 @@ public class CompraServicio {
     public Compra registrarCompra(String idCliente, double monto) {
         LocalDate hoy = LocalDate.now();
         
-        // Simula el paso del tiempo para reiniciar streaks (importante para testing y la app real)
         if (ultimoDiaProcesado != null && !ultimoDiaProcesado.equals(hoy)) {
             reiniciarStreaksDiarios();
         }
